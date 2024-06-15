@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('./style/icon.css');
+@import url('./style/font.css');
+
+
+.scroll{
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0 20px; /* Add padding on the left and right */
+  }
+  
+.containers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  background-color: black;
+  }
+
+  .padding-left{
+    padding-left: 42rem;
+    
+  }
+
+  .containerr {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container horizontally */
+    /* Add padding on the left and right */
+    }
